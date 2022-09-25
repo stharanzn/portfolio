@@ -1,0 +1,253 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+// #portfolioPage{
+//     position: relative;
+//     background-size: cover;
+//     width: 100%;
+//     height: 100%;
+//     background-attachment: fixed;
+//     margin: 0;
+//     padding: 0;
+//     z-index: 5;
+//     // background: url("../images/portBG.jpg");
+    
+//     .portfolioBG{
+//         background: url("https://webstockreview.net/images/rainbow-border-png-2.png");
+//     }
+
+//     .portHeader{
+//         position: absolute;
+//         z-index: 4;
+//         background-color: white;
+//         width: 100%;
+//         height: 10%;
+//         font-size: 2rem;    
+//         font-style: italic;
+//         text-align: center;
+
+//         .text{
+//             margin-top: 2rem;
+//         }
+//     }
+
+//     .projectsHolder{
+//         border: 1px solid black;
+//         text-align: center;
+//         position: relative;
+//         display: flex;
+//         flex-direction: row;
+//         align-items: center;
+//         height: 100%;
+//         width: 100vw;
+
+//         .proj:hover{
+
+//             .frontCard{
+//                 opacity: 0.4;
+//             }
+
+//             .descCard{
+//                 transform: translate(50%) rotate(25deg);
+//             }
+
+//             .archCard{
+//                 transform: translate(-50%) rotate(-25deg);
+                
+//             }
+//         }
+
+//         .proj{
+//             text-align: center;
+//             display: flex;
+//             justify-content: center;
+//             // transform: translate(15%);
+
+//             &__1{
+//                 flex: 1;
+//                 order: 1;
+//             }
+
+//             &__2{
+//                 flex: 1;
+//                 order: 2;
+//             }
+
+//             .frontCard{
+//                 z-index: 10;
+
+//                 .title{
+//                     font-style: italic;
+//                     font-size: 2rem;
+//                     margin-bottom: 1rem;
+//                 }
+    
+//                 img{
+//                     width: 75%;
+//                     height: 50%;
+//                 }
+    
+//                 .shortDesc{
+//                     margin-top: 1rem;
+//                     font-size: 1.5rem;
+//                 }
+//             }
+
+//             .descCard{
+//                 text-align: center;
+//                 font-size: 1.5rem;
+//                 z-index: 9;
+                
+//             }
+
+//             .archCard{
+//                 text-align: center;
+//                 font-size: 1.5rem;
+//                 z-index: 8;
+                
+//             }
+//         }
+
+//         .projectCard{
+//             // margin-top: 10%;
+//             align-items: center;
+//             top: 23%;
+//             width: 18%;
+//             height: 50%;
+//             position: absolute;
+//             background-color: #00fff0;
+//             border-radius: 10%;
+//             padding: 2rem 1rem 2rem 1rem;
+//             // border: 1px solid black;
+//             transition: all 1s ease-in-out;
+//             display: flex;
+//             justify-content: space-around;
+//             flex-direction: column;
+            
+//         }                
+
+
+//     }
+
+// }
+
+.portfolioBG{
+    top: 0%;
+    background: url("../images/portBG.png");
+}
+
+#portfolioPage{
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+
+    
+    .portHeader{
+        position: absolute;
+        z-index: 4;
+        background-color: white;
+        width: 100%;
+        height: 10%;
+        font-size: 2rem;    
+        font-style: italic;
+        text-align: center;
+
+        .text{
+            margin-top: 2rem;
+        }
+    }
+
+    .projectsHolder{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .proj:hover{
+            .frontCard{
+                opacity: 1;
+            }
+
+            .descCard{
+                transform: translate(120%, 15%);
+            }
+
+            .archCard{
+                transform: translate(-120%, 15%) ;
+            }
+        }
+
+        .proj{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            // transform: translate(15%);
+
+            
+
+            .frontCard{
+                z-index: 10;
+
+                .title{
+                    // opacity: 1;
+                    font-style: italic;
+                    font-size: 2rem;
+                    margin-bottom: 1rem;
+                }
+    
+                img{
+                    width: 75%;
+                    height: 50%;
+                    border-radius: 15%;
+                }
+    
+                .shortDesc{
+                    margin-top: 1rem;
+                    font-size: 1.5rem;
+                }
+            }
+
+            .descCard{
+                text-align: center;
+                font-size: 1.5rem;
+                z-index: 9;
+                
+            }
+
+            .archCard{
+                text-align: center;
+                font-size: 1.5rem;
+                z-index: 8;
+                
+            }
+        }
+
+        .projectCard{
+            // margin-top: 10%;
+            align-items: center;
+            top: 23%;
+            width: 18%;
+            height: 50%;
+            position: absolute;
+            background-color: #FEE3C6;
+            border-radius: 10%;
+            padding: 2rem 1rem 2rem 1rem;
+            // border: 1px solid black;
+            transition: all 0.9s ease-in-out;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            box-shadow: -15px -10px 10px #00000025;
+            
+        }                
+    }
+
+}

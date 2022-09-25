@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portStyles/homePage.css">
+    <link rel="stylesheet" href="portStyles/aboutPage.css">
+    <link rel="stylesheet" href="portStyles/portfolioPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Permanent+Marker&family=Tourney:ital,wght@1,100&family=Underdog&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/faviconLight.png" type="image/x-icon">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    
+    
+    <section id="homePage" >
+        
+
+            <div class="background">
+                
+
+                <div class="stuffLine">
+                    <p class="iLove">
+                        I Love
+                    </p>
+            
+                    <p class="dev">
+                        <span class="devSpan">Developing </span> Stuff
+                    
+                    </p>
+        
+                    
+
+                </div>
+                
+                
+                <div class="starsBg">
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                </div>
+                <img class="logo" src="./images/faviconLight.png" alt="sharanzLogo">
+            
+
+                <img class="moon" src="./images/moon.png" alt="moon">
+                <p class="name">Ranjan Shrestha</p>
+                <img class="char" src="./images/char.png" alt="character facing back">
+                <img class="cycle" src="./images/openmoji_bicycle.png" alt="bicycle">
+                <div class="bottom">
+                    
+                </div>
+
+                <div class="bottomNav">
+                    <a class="selected" href="">Home</a>
+                    <a href="#aboutSection" class="link">About</a>
+                    <a href="#portfolioSection">Portfolio</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+        
+        
+    </section>
+
+    
+
+    <section class="page">
+
+        <div id="aboutPage">
+            <div class="aboutHeader">
+                <a name="aboutSection"></a>
+                <p class="text">About Me</p>
+            </div>
+            
+            <div class="infoSection">
+            
+                    <div class="info">
+                        <p class="infoBox">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione libero facilis rerum tenetur labore, perferendis sequi distinctio illo! Aspernatur, adipisci. Quae fugiat repudiandae sapiente, odio eius doloremque! Aliquam, repellat laboriosam.
+                        </p>
+
+                        <p class="infoBox">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis reprehenderit non harum suscipit atque nesciunt laudantium iure vel eos. Soluta, eos quasi suscipit quaerat aperiam ab in repudiandae. Facere, officiis!
+                        </p>
+                        
+                    </div>
+                    <div class="info2">
+                        <p class="infoBox">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione libero facilis rerum tenetur labore, perferendis sequi distinctio illo! Aspernatur, adipisci. Quae fugiat repudiandae sapiente, odio eius doloremque! Aliquam, repellat laboriosam.
+                        </p>
+
+                        <p class="infoBox">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis reprehenderit non harum suscipit atque nesciunt laudantium iure vel eos. Soluta, eos quasi suscipit quaerat aperiam ab in repudiandae. Facere, officiis!
+                        </p>
+                        
+                    </div>
+
+                    <img src="./images/aboutMeImage.png" alt="aboutMeImage">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="page">
+        <div id="portfolioPage" class ="portfolioBG">
+            <div class="portHeader">
+                <a name="portfolioSection"></a>
+                <p class="text">Portfolio</p>
+            </div>
+            <!-- projects display holder -->
+           <div class="projectsHolder ">
+                <div id="indivProj" class="proj">
+                    <div class="frontCard projectCard">
+                        <div class="title">
+                            project Title
+                        </div>
+                        <img class="image" src="./images/projImgPlaceHolder.png" alt="project Image"></img>
+                        <div class="shortDesc">short desc. describing the project</div>
+                    </div>
+
+                    <!-- project Descripton card -->
+                    <div class="descCard projectCard">
+                        <div class="properDesc">a proper description for the project, including what it does and its purpose of creation.</div>
+                    </div>
+
+                    <!-- project Architecture card -->
+                    <div class="archCard projectCard">
+                        <div class="projectArch">all the architecture used to create the project including the languages and sources if any.</div>
+                    </div>
+                </div>
+           </div>
+           
+
+        </div>
+
+        <div id="portfolioPage" class ="portfolioBG">
+            <!-- projects display holder -->
+           <div class="projectsHolder ">
+                <div id="indivProj" class="proj">
+                    <div class="frontCard projectCard">
+                        <div class="title">
+                            project Title
+                        </div>
+                        <img class="image" src="./images/projImgPlaceHolder.png" alt="project Image"></img>
+                        <div class="shortDesc">short desc. describing the project</div>
+                    </div>
+
+                    <!-- project Descripton card -->
+                    <div class="descCard projectCard">
+                        <div class="properDesc">a proper description for the project, including what it does and its purpose of creation.</div>
+                    </div>
+
+                    <!-- project Architecture card -->
+                    <div class="archCard projectCard">
+                        <div class="projectArch">all the architecture used to create the project including the languages and sources if any.</div>
+                    </div>
+                </div>
+           </div>
+           
+
+        </div>
+        
+    </section>
+    
+
+    <script src="./logics/portfolio.js"></script>
+    <script src="./logics/script.js"></script>
+    <script src="./logics/aboutPage.js"></script>
+
+    
+</body>
+</html>
