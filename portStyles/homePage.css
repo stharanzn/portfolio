@@ -268,7 +268,7 @@ h1 {
   bottom: -120px;
   width: 100%;
   height: 290px;
-  background-image: url("../images/bottom.png");
+  background: url("../images/bottom.png");
   z-index: 0;
 }
 
@@ -292,10 +292,8 @@ h1 {
   position: absolute;
   top: 1rem;
   right: 5rem;
-  -webkit-animation: moonSlideIn 2s,
- rotateMoon 45s infinite;
-          animation: moonSlideIn 2s,
- rotateMoon 45s infinite;
+  -webkit-animation: moonSlideIn 2s, rotateMoon 45s infinite;
+          animation: moonSlideIn 2s, rotateMoon 45s infinite;
 }
 
 #homePage .background .bottomNav {
