@@ -10,6 +10,10 @@ html, body {
   background: url("../images/portBG.png");
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 #portfolioPage {
   position: relative;
   background-size: cover;
@@ -19,9 +23,8 @@ html, body {
   margin: 0;
   padding: 0;
   z-index: 5;
-  font-family: 'Underdog', cursive;
+  font-family: "Underdog", cursive;
 }
-
 #portfolioPage .portHeader {
   position: absolute;
   z-index: 4;
@@ -32,85 +35,57 @@ html, body {
   font-style: italic;
   text-align: center;
 }
-
 #portfolioPage .portHeader .text {
   margin-top: 2rem;
 }
-
 #portfolioPage .projectsHolder {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
 }
-
 #portfolioPage .projectsHolder .proj:hover .frontCard {
   opacity: 1;
 }
-
 #portfolioPage .projectsHolder .proj:hover .descCard {
-  -webkit-transform: translate(120%, 15%);
-          transform: translate(120%, 15%);
+  transform: translate(120%, 15%);
 }
-
 #portfolioPage .projectsHolder .proj:hover .archCard {
-  -webkit-transform: translate(-120%, 15%);
-          transform: translate(-120%, 15%);
+  transform: translate(-120%, 15%);
 }
-
 #portfolioPage .projectsHolder .proj {
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 #portfolioPage .projectsHolder .proj .frontCard {
   z-index: 10;
 }
-
 #portfolioPage .projectsHolder .proj .frontCard .title {
   font-style: italic;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-
 #portfolioPage .projectsHolder .proj .frontCard img {
   width: 75%;
   height: 50%;
   border-radius: 15%;
 }
-
 #portfolioPage .projectsHolder .proj .frontCard .shortDesc {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
-
 #portfolioPage .projectsHolder .proj .descCard {
   text-align: center;
   font-size: 1.5rem;
   z-index: 9;
 }
-
 #portfolioPage .projectsHolder .proj .archCard {
   text-align: center;
   font-size: 1.5rem;
   z-index: 8;
 }
-
 #portfolioPage .projectsHolder .projectCard {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   top: 23%;
   width: 18%;
   height: 50%;
@@ -118,18 +93,9 @@ html, body {
   background-color: #FEE3C6;
   border-radius: 10%;
   padding: 2rem 1rem 2rem 1rem;
-  -webkit-transition: all 0.9s ease-in-out;
   transition: all 0.9s ease-in-out;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-shadow: -15px -10px 10px #00000025;
-          box-shadow: -15px -10px 10px #00000025;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: -15px -10px 10px rgba(0, 0, 0, 0.1450980392);
 }
-/*# sourceMappingURL=portfolioPage.css.map */

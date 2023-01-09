@@ -15,7 +15,6 @@ html, body {
   padding: 0;
   background: url("../images/whiteBG.png");
 }
-
 #aboutPage .aboutHeader {
   position: absolute;
   z-index: 4;
@@ -26,41 +25,28 @@ html, body {
   font-style: italic;
   text-align: center;
 }
-
 #aboutPage .aboutHeader .text {
   margin-top: 2rem;
 }
-
 #aboutPage .infoSection {
   text-align: center;
 }
-
 #aboutPage .infoSection .info {
   margin-top: 10%;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-left: 4rem;
   padding-right: 4rem;
 }
-
 #aboutPage .infoSection .info2 {
   bottom: 10%;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-left: 4rem;
   padding-right: 4rem;
 }
-
 #aboutPage .infoSection .infoBox {
   border: 1px solid black;
   border-radius: 50px;
@@ -68,8 +54,6 @@ html, body {
   width: 25%;
   height: 50%;
 }
-
 #aboutPage .infoSection img {
   margin-top: 15%;
 }
-/*# sourceMappingURL=aboutPage.css.map */

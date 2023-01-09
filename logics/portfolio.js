@@ -15,7 +15,6 @@ function defaultCard(i){
     proj.children[i].classList.remove("expand")
 }
 
-
 // proj.addEventListener('mouseover', sneakCard(ii))
 // proj.addEventListener('mousedown', expandCard(ii))
 // proj.addEventListener('mouseout', defaultCard(ii))

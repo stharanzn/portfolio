@@ -10,6 +10,11 @@ html,body{
     background: url("../images/portBG.png");
 }
 
+*::-webkit-scrollbar{
+    display: none;
+}
+
+
 #portfolioPage{
     position: relative;
     background-size: cover;
